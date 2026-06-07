@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ran Gilboa — UX/UI Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <img src="content/dramatic.jpg" alt="Ran Gilboa" class="portrait" />
+        <div class="hero-text">
+          <h1>Ran Gilboa</h1>
+          <p class="role">UX/UI Designer</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <p>I design for systems where errors have consequences — energy grids, network security, and critical infrastructure. Over 15 years, I've led design teams, established design systems across enterprise platforms, and reduced operational errors in environments where the margin for error is zero. Currently at Theta Systems. Previously at Transpower NZ, Totara Learning, F5 Networks, and Imperva. I'm particularly effective at translating complex, regulated requirements into workflows that are both powerful and learnable — and at building the teams and systems that scale that capability.</p>
+      <p>Artificial intelligence can accelerate and automate aspects of the design process such as research and prototyping, but a designer's judgment must be applied to ensure quality results. It's a balancing act involving customer expectations, regulatory constraints, functional requirements, and operational risk. Technology can supercharge us, but it cannot decide for us. Not yet.</p>
+    </section>
+
+    <section class="contact">
+      <h2>Get in touch</h2>
+      <form id="contact-form" action="https://formsubmit.co/ran.gilboa@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="Message from rangilboa.com" />
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_next" value="thanks.html" />
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit">Send message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Ran Gilboa</p>
+  </footer>
+</body>
+</html>
